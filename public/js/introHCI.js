@@ -9,7 +9,7 @@ $('.likeBtn').click(function(e)
 {
 	e.preventDefault();
 	
-	ga("send", "event", 'like', 'click');
+	gtag("send", "event", 'like', 'click');
 })
 
 /*
